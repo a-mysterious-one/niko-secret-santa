@@ -71,6 +71,8 @@ var fallingSnow = function() {
                 height = size.height.replace('px','');
                 snowCanvas.width = width;
                 snowCanvas.height = height*4;
+                console.log(container)
+                console.log(snowCanvas.width, snowCanvas.height)
             }
             window.onresize = setSize();
             setSize();        
