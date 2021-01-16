@@ -24,13 +24,12 @@ html {
     margin-bottom: 5px;
 }
 
-#header-corner {
-    height: 37px;
-    margin-left: 10px;
+.music {
+    margin-top: 10px;
 }
 
 .main {
-	margin-top: 30px;
+	  margin-top: 20px;
     display: flex;
     justify-content: flex-start;
     margin-left: 100px;
@@ -38,13 +37,13 @@ html {
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 80px;
 }
 
 
