@@ -2,7 +2,7 @@
 html {
     font-family: Consolas, monospace;
     font-size: 15px;
-    color: #CAC4FE;
+    color: #FF00F7;
     background-color: black
 }
 
@@ -13,7 +13,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 80px;
+    margin-top: 90px;
     margin-left: 120px;
 }
 
@@ -30,7 +30,7 @@ html {
 }
 
 .main {
-	margin-top: 40px;
+	margin-top: 30px;
     display: flex;
     justify-content: flex-start;
     margin-left: 100px;
@@ -39,7 +39,9 @@ html {
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   margin-left: 120px;
   margin-right: 120px;
   margin-bottom: 80px;

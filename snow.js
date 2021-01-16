@@ -3,7 +3,7 @@ var fallingSnow = function() {
     var defaultOptions = {
         snowflakeSize: 3,
         intensity: 30, /* 10-100, 100= Blizzard */
-        speed: 0.8,
+        speed: 1,
         selector: 'html'       
     }
     
@@ -70,7 +70,9 @@ var fallingSnow = function() {
                 width =  size.width.replace('px','');
                 height = size.height.replace('px','');
                 snowCanvas.width = width;
-                snowCanvas.height = height;
+                snowCanvas.height = height*4;
+                console.log(container)
+                console.log(snowCanvas.width, snowCanvas.height)
             }
             window.onresize = setSize();
             setSize();        
@@ -119,6 +121,8 @@ var fallingSnow = function() {
              if (!ctx) {
                  ctx = snowCanvas.getContext("2d");
              }
+             var width = snowCanvas.width
+             var height = snowCanvas.height
             
              ctx.clearRect(0, 0, width, height);
      
