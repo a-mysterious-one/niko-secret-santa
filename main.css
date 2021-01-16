@@ -1,0 +1,49 @@
+
+html {
+    font-family: Consolas, monospace;
+    font-size: 15px;
+    color: #CAC4FE;
+    background-color: black
+}
+
+
+.header {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.header span {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#header-corner {
+    height: 37px;
+    margin-left: 10px;
+}
+
+.main {
+	margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 80px;
+}
+
+
+
