@@ -1,8 +1,8 @@
 var fallingSnow = function() {
     
     var defaultOptions = {
-        snowflakeSize: 3,
-        intensity: 30, /* 10-100, 100= Blizzard */
+        snowflakeSize: 3.5,
+        intensity: 25, /* 10-100, 100= Blizzard */
         speed: 1,
         selector: 'html'       
     }
